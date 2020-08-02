@@ -2,6 +2,7 @@ import React from "react"
 import { HomeHeader, Banner, BannerButton } from "../utils"
 import img from "../images/bcg/homeBcg.jpeg"
 import QuickInfo from "../components/HomePageComponents/QuickInfo"
+import Gallery from "../components/HomePageComponents/Gallery.js"
 // import { Link } from "gatsby"
 
 import Layout from "../components/layout"
@@ -16,6 +17,7 @@ const IndexPage = () => (
       </Banner>
     </HomeHeader>
     <QuickInfo />
+    <Gallery />
   </Layout>
 )
 
