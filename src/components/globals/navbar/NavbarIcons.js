@@ -47,7 +47,7 @@ export default class NavbarIcons extends Component {
 const IconsWrapper = styled.div`
   .icon {
     cursor: pointer;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     ${styles.transFunction()};
     &:hover {
       color: ${styles.colors.mainYellow};
