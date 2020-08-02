@@ -24,9 +24,9 @@ export default class Navbar extends Component {
 }
 
 const NavWrapper = styled.nav`
-  @media screen and (min-width: 768px) {
+  @media only screen and (min-width: 768px) {
     display: flex;
     align-items: center;
-    /* justify-content: space-between */
+    justify-content: space-between
   }
 `

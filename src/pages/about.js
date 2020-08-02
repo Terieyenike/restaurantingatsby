@@ -4,11 +4,11 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
+const AboutPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h3>home page</h3>
+    <SEO title="About" />
+    <h3>about page</h3>
   </Layout>
 )
 
-export default IndexPage
+export default AboutPage
