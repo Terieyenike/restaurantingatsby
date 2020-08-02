@@ -2,7 +2,7 @@ import React from "react"
 import { HomeHeader, Banner, BannerButton } from "../utils"
 import img from "../images/bcg/homeBcg.jpeg"
 import QuickInfo from "../components/HomePageComponents/QuickInfo"
-import Gallery from "../components/HomePageComponents/Gallery.js"
+import Gallery from "../components/HomePageComponents/Gallery-1.js"
 // import { Link } from "gatsby"
 
 import Layout from "../components/layout"
